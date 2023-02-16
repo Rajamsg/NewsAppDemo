@@ -1,0 +1,52 @@
+<layout>
+    <data>
+
+    </data>
+
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorWhite">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_dehaze_24"
+        android:visibility="visible"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="  News"
+        android:textSize="18sp"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="20dp"
+        android:visibility="view"
+        android:ellipsize="end"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/filter"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/ic_baseline_tune_24"
+        android:visibility="view" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/sort"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="25dp"
+        app:srcCompat="@drawable/ic_baseline_tune_24"
+        android:visibility="gone"
+         />
+
+
+</androidx.appcompat.widget.Toolbar>
+</layout>
