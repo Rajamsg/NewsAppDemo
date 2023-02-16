@@ -33,6 +33,7 @@ public class AllNewsFragment extends Fragment {
     AllNewsAdapterClass allNewsAdapterClass;
     List<News> newsList;
     ProgressBarClass progressBarClass;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
